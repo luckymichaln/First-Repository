@@ -1,3 +1,7 @@
 function log (text) {
-	var log = document.getElementById("text");
+	document.getElementsByTagName('textarea')[0].innerText=text;
 }
+
+log('sssa');
+log('fdsfs');
+log('grwgrwg');
